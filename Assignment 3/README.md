@@ -20,4 +20,4 @@ Indexing Exercises
 Slicing Exercises
 1. Open Level1_403.py file
 2. Refer to code with comments attached for questions 1 through 4
-3. The 40 to 44th numbers on the list are not equal to 39-43. Instead, the output is 40-43 (40, 41, 42, 43). Python included 0 in the list as count 1/the first number, instead of starting at 1. Refer to code.
+3. The 40 to 44th numbers on the list are equal to the integers 39-43. It is interpreted that the 1st item on the list is 1, so the 40th item would be 40. The Boolean shows that it is true. Refer to code.
