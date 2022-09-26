@@ -116,5 +116,5 @@ print(list100[100:96:-1])
 #Question 5
 print(list100[40:44])
 print(list100[40])
-print(list100[40:44] == [39, 40, 41, 42, 43])
+print(list100[39:44] == [39, 40, 41, 42, 43])
 
