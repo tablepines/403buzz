@@ -6,3 +6,7 @@ Conditional exercises
 For loop exercises
 1. Open Level2_403.py file.
 2. Refer to code.
+
+While loop exercises
+1. Open Level2_403.py file.
+2. Refer to code.
