@@ -56,7 +56,7 @@ while looping:
     print(response2)
     print("This is an image")
     failsafe = failsafe + 1
-    if response2 == 1 or response == 2 or failsafe == 5:
+    if response2 == 1 or response2 == 2 or failsafe == 5:
         looping = False 
 
         
