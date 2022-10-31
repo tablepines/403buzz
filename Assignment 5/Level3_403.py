@@ -26,17 +26,21 @@ import os
 #-if you will be presenting images, define the image directory
 #-check that these directories exist
 
+os.chdir('/Users/vivianlaibui/Desktop')
 os.getcwd()
 print(os.getcwd())
 main_dir = os.getcwd()
 image_dir = os.path.join(main_dir,'images')
 data_dir = os.path.join(main_dir,'data')
+print(image_dir)
+print(data_dir)
 
 os.path.isdir(image_dir)
+
 if not os.path.isdir(image_dir):
-    os.path.mkdir(image_dir)
+    raise Exception('Could not find the path!')
 if not os.path.isdir(data_dir):
-    os.path.mkdir(data_dir)
+    raise Exception('Could not find the path!')
 
 
 #=====================
@@ -66,22 +70,18 @@ startMessage = "Welcome to the experiment, press any key to begin"
 #PREPARE CONDITION LISTS
 #=====================
 #-check if files to be used during the experiment (e.g., images) exist
-face_number = 1
-while True:
-    pics = ('face0%i.jpg' %face_number)
-    print(pics)
-    face_number = face_number + 1
-    if face_number == 10:
-        break
-    
+pics = ['face01.jpg','face02.jpg','face03.jpg','face04.jpg','face05.jpg','face06.jpg','face07.jpg','face08.jpg','face09.jpg','face10.jpg']
+os.listdir(image_dir)
+sorted(os.listdir(image_dir))
 ims_in_dir = sorted(os.listdir(image_dir))
-cat_counter = 1
-for images in ims_in_dir:
+   
+counter = 1
+for a in pics:
     if pics == ims_in_dir:
-        print('cat%i.jpg was found!' %cat_counter)
-        cat_counter = cat_counter +1
+        print('cat%i.jpg was found!' %counter)
+        counter = counter +1
     if not pics == ims_in_dir:
-        print("The image lists do not match up!")
+        raise Exception("The image lists do not match up!")
         
 #-create counterbalanced list of all conditions *
 catimgs = list(zip(cats,imgs))
