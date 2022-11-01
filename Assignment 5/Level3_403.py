@@ -63,6 +63,7 @@ imgs = ['im1.png', 'im2.png', 'im3.png', 'im4.png', 'im5.png', 'im6.png', 'im7.p
 stimSize = [200,200];
 stimDur = 1;
 stimOrien = [10];
+stimLoc = [0,0];
 #-start message text *
 startMessage = "Welcome to the experiment, press any key to begin"
 
