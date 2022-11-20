@@ -167,7 +167,7 @@ my_text = visual.TextStim
             my_image.draw()
             win.flip()
             event.waitKeys()
-            
+
             my_text.text = endtr_msg + str(trial)
             my_text.draw()
             win.flip()
