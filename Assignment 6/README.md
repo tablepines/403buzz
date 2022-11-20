@@ -1,11 +1,11 @@
 Open Level4_403.py file for all exercises.
 
 # Dialogue Box Exercises
-1. First section - question 1 and 2 are on lines 24 and 25 of code.
+1. First section - question 1 and 2 are on line 24.
 
 Using DlgFromDict: Questions
 Questions 1-3 are on lines 29-32. 
-When the variable 'session' is fixed, ...
+Setting the variable 'session' as fixed will not let the user make changes to this variable or add an input like for the others. 
 
 4. Refer to line 26. 
 5. Refer to code comments under this section.
