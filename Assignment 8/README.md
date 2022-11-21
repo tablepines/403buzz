@@ -19,7 +19,7 @@ Open Level6pt2.py file
 
 # Save JSON Exercises
 Open Level6pt2.py file 
-1. Refer to line 140.
+1. Refer to line 137.
  
  # Read JSON Exercises
- Refer to Level6pt2.py file
+Lines 139-151
