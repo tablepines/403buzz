@@ -21,5 +21,5 @@ Open Level6pt2.py file
 Open Level6pt2.py file 
 1. Refer to line 137.
  
- # Read JSON Exercises
+ # Read JSON Exercises (prof said this will be the focus for next year's class, didn't go over this exercise entirely)
 Lines 139-151
